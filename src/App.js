@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './components/Main'
+import Product from './components/Product/Product'
 function App() {
   
   const foods = {
@@ -19,6 +20,7 @@ function App() {
 
       
       <Footer />
+      <Product />
       <Main />
     </div>
     
